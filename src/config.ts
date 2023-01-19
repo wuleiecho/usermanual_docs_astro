@@ -1,7 +1,8 @@
 export const SITE = {
 	title: 'Documentation',
 	description: 'Your website description.',
-	defaultLanguage: 'en_US',
+//	defaultLanguage: 'en_US',
+    defaultLanguage: 'zh_CN',
 };
 
 export const OPEN_GRAPH = {
@@ -27,6 +28,7 @@ export type Frontmatter = {
 
 export const KNOWN_LANGUAGES = {
 	English: 'en',
+    Chinese: 'zh',
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
@@ -54,4 +56,12 @@ export const SIDEBAR: Sidebar = {
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
+    zh: {
+        'Section Header': [
+            { text: 'Introduction', link: 'zh/introduction' },
+            { text: 'Page 2', link: 'zh/page-2' },
+            { text: 'Page 3', link: 'zh/page-3' },
+            ],
+        'Another Section': [{ text: 'Page 4', link: 'zh/page-4' }],
+    },
 };
