@@ -26,7 +26,7 @@ docker ps -a | grep unit
 #### 查询容器IP地址: 容器网络配置使用默认的bridge模式
 
 ```bash
-doker inspect ${CONTAINER ID} | grep IPAddress
+docker inspect ${CONTAINER ID} | grep IPAddress
 ```
 
 #### unit配置文件：对应静态路由功能，位于当前目录下，名称为test.json，起始页面地址为/www/dist/index.html
