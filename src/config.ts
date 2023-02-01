@@ -49,19 +49,21 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
+		'参考文档': [
 			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+			// { text: 'Page 2', link: 'en/page-2' },
+			// { text: 'Page 3', link: 'en/page-3' },
+			{ text: 'Unit使用方式', link: 'zh/page-1' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
+		// 'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
     zh: {
-        'Section Header': [
+        '参考文档': [
             { text: 'Introduction', link: 'zh/introduction' },
-            { text: 'Page 2', link: 'zh/page-2' },
-            { text: 'Page 3', link: 'zh/page-3' },
+            // { text: 'Page 2', link: 'zh/page-2' },
+            // { text: 'Page 3', link: 'zh/page-3' },
+			{ text: 'Unit使用方式', link: 'zh/page-1' },
             ],
-        'Another Section': [{ text: 'Page 4', link: 'zh/page-4' }],
+        // 'Another Section': [{ text: 'Page 4', link: 'zh/page-4' }],
     },
 };
